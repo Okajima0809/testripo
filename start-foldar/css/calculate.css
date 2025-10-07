@@ -1,0 +1,26 @@
+.contact_form{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0 20px;
+    background-color: white;
+    max-width: 30%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(25, 24, 24, 0.1);
+}
+.contact_form form label,input,select{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.contact_form input{
+    width: 30%;
+}
+.contact_form select{
+    width: 25%;
+}
+.contact_form p{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
