@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>サンプルサイト</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="header_nav">
-                <h1>課題提出場所</h1>
+                <h1>私のポートフォリオ</h1>
                 <div class="tab">
                     <ul>
                         <li><a href="../index.html">ホーム</a></li>
@@ -25,18 +26,16 @@
         </nav>
     </header>
     <main>
-        <section class="task_list">
-            <ul>
-                <li><a href="javascriptwork/work1_3/1_3.html">1_3Work課題</a></li>
-                <li><a href="javascriptwork/work1_4/1_4.html">1_4Work課題</a></li>
-                <li><a href="javascriptwork/work1_6/1_6.html">1_6Work課題</a></li>
-            </ul>
+        <section class="contact_form">
+            <h2>GitHubユーザー情報を取得しよう</h2>
+            <input type="text" id="username"  placeholder="例:GitHubユーザー名を入力">
+            <button id="searchBtn">検索</button>
+            <div id="result"></div>
         </section>
     </main>
     <footer>
-        <section class="header">
-            <h3>&copy;2025私のポートフォリオ</h3>
-        </section>
+        <p>&copy;2025私のポートフォリオ</p>
     </footer>
+    <script src="javascript/contact.js"></script>
 </body>
 </html>
